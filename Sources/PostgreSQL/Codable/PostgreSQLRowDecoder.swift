@@ -1,7 +1,7 @@
 /// Decodes `Decodable` types from PostgreSQL row data.
-struct PostgreSQLRowDecoder {
+public struct PostgreSQLRowDecoder {
     /// Creates a new `PostgreSQLRowDecoder`.
-    init() { }
+    public init() { }
     
     /// Decodes a `Decodable` object from `[DataColumn: PostgreSQLData]`.
     ///
